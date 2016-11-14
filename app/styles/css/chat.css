@@ -1,0 +1,148 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+body {
+	font-family: sans-serif;
+	margin: 0 0;
+}
+
+main {
+	width: 100%;
+	max-width: 480px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 16px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #707070;
+}
+
+.nav-tabs {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	list-style: none;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.nav-tabs span {
+	padding: 10px;
+	display: block;
+
+}
+
+nav ul {
+	margin: 0 0 10px 0;
+	padding: 0 0;
+}
+
+
+.nav-tabs.active {
+	background-color: #167ac7;
+	color: #fff;
+	border-radius: 4px;
+}
+
+nav ul {border: 1px solid #eee; border-radius: 4px;}
+
+#chat-container {
+	height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+	padding: 10px;
+}
+
+#feed{
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#message-bar {
+	position: relative;
+}
+
+#message-bar input, input {
+	border-radius: 2px;
+	padding: 10px;
+	font-size: 12px;
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#message-bar button {
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+.modal {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.12);
+}
+
+.username {
+	width: 240px;
+	border-radius: 4px;
+	background-color: #666;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.helper {
+	color: #f8f8f8;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 5px;
+}
+
+
+
+.message {
+	padding: 10px 15px;
+	border-radius: 15px;
+	max-width: 75%;
+	margin-bottom: 2px;
+	float: left;
+	background-color: #e5e5ea;
+	clear: both;
+}
+
+.my-message {
+	background-color: #1289fe;
+	color: #fff;
+	float: right;
+}
+
+.my-message .msg-usr {
+	display: none;
+}
+
+.msg-usr {
+	font-size: 10px;
+	margin-bottom: 2px;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ChatApplication",
+  "version": "1.0.0",
+  "description": "Quil Labs",
+  "author": "Quil Labs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.0",
+    "jquery": "*",
+    "socket.io": "^1.5.1"
+  }
+}

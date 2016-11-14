@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to QuilChat</title>
+	<script type="text/javascript" src="/scripts/vendor/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="/scripts/vendor/socket.io-client/socket.io.js"></script>
+	<script type="text/javascript" src="/scripts/js/chat.js"></script>
+	<link href="/styles/css/chat.css" rel="stylesheet"></script>
+</head>
+<body>
+
+	<main>
+	<header>
+		<h1>QuilChat</h1>
+	</header>
+
+	<section>
+			<nav>
+				<ul>
+					<li class="active nav-tabs"><span>Feed</span></li><li class="nav-tabs"><span>Users</span></li>
+				</ul>
+			</nav>
+
+			<div id="feed">
+				<div id="chat-container">
+
+				</div>
+
+				<form class="message-bar" class="clearfix">
+					<input type="text" name="themessage" placeholder="Enter message and press enter...">
+				</form>
+
+
+			</div><!--feed-->
+
+			<div id="users">
+
+			</div><!--users-->
+
+	</section>
+
+
+
+
+	<div class="modal">
+		<div class="overlay"></div>
+		<div class="username">
+			<input type="text" placeholder="username">
+			<div class="helper">Press ENTER</div>
+		</div>
+	</div>
+
+</main>
+</body>
+</html>
